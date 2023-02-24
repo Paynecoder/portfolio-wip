@@ -1,0 +1,65 @@
+
+.container > h1 {
+    font-size: 50px;
+    margin-bottom: 1em;
+    max-width: 1000px;
+    word-wrap: break-word;
+  }
+  
+  .title {
+    animation: slidefirst 0.75s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slidefirst {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
+  
+  .description {
+    font-size: 40px;
+    color: #3E92CC;
+    word-wrap: break-word;
+    max-width: 800px;
+    opacity: 0;
+    animation: slidefirst 0.75s ease-in-out forwards;
+    animation-delay: 0.75s;
+  }
+  .pages {
+    margin-top: 2em;
+    opacity: 0;
+    animation: slidefirst 0.75s ease-in-out forwards;
+    animation-delay: 1.3s;
+  }
+  
+  .pages > span:hover {
+    cursor: pointer;
+    color: #3E92CC;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container > h1 {
+      font-size: 20px;
+    }
+    .description {
+      font-size: 20px;
+    }
+
+    .pages {
+      font-size: 20px;
+    }
+  }
+    

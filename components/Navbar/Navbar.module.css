@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 30vw;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    opacity: 0;
+    animation: slide 0.5s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.logo > a >  {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.logo > h1:hover {
+    cursor: pointer;
+    color: #3E92CC;
+}
+
+.links {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.links > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.links > a:hover {
+    color: #3E92CC;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+

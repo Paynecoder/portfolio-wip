@@ -1,0 +1,33 @@
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+  }
+
+  .contacttitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .contacttxt {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+
+
+  .sociallinks {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+.imglinks {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}

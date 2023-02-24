@@ -1,0 +1,41 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.input {
+    outline: 0.5px solid #000;
+    padding: 0.5em;
+}
+
+.textarea {
+    outline: 0.5px solid #000;
+    padding: 0.5em;
+    height: 200px;
+}
+
+.btn {
+    outline: 1px solid #000;
+    padding: 0.5em;
+    background-color: #3E92CC;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #3E92CC;
+    transition: all 0.2s ease-in-out;
+}
+
+.send {
+    outline: 2px solid #000;
+    padding: 2em;
+    width: 400px;
+}
+
