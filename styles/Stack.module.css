@@ -12,3 +12,27 @@
     margin-left: 15vw;
     margin-top: 1em;
   }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .subtitle {
+    color: #3E92CC;
+    margin-top: 1em;
+    font-size: 2rem;
+  }
+
+  .list {
+    list-style-type: none;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
