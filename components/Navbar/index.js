@@ -13,10 +13,10 @@ export default function Navbar() {
         <Link href={"/work"}>
           <p>work()</p>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/about"}>
           <p>about()</p>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/stack"}>
           <p>stack()</p>
         </Link>
         <Link href={"/contact"}>

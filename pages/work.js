@@ -1,7 +1,11 @@
-export default function work() {
+import styles from "@/styles/Work.module.css";
+
+export default function Work() {
   return (
-    <div>
-      <h1>Work</h1>
-    </div>
+    <>
+      <h1 className={styles.code}>&lt;div id="work"&gt;</h1>
+      <div className={styles.main}></div>
+      <h1 className={styles.code}>&lt;/div&gt;</h1>
+    </>
   );
 }
