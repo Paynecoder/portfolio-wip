@@ -10,9 +10,9 @@ export default function App({ Component, pageProps }) {
       <Navbar />
       <motion.div
         key={router.route}
-        initial={{ x: "100%", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        exit={{ x: "-100%", opacity: 0 }}
+        initial={{ x: 0, opacity: 1 }}
+        animate={{ x: "-100%", opacity: 1 }}
+        exit={{ x: "100%", opacity: 0 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
         <Component {...pageProps} />
